@@ -1,0 +1,60 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #e3f0ff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto; 
+    width: auto; 
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+}
+
+th, td {
+    border: 1px solid; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+.sobremi {
+    margin-top: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.sobremi_margen {
+    margin-top: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 70px
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+nav li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
